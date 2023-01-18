@@ -1,0 +1,29 @@
+@import "src/assets/styles/vars";
+
+.container {
+  min-height: calc(100vh - 36px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feed {
+  padding-top: 36px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: 'Exo2.0', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: $title;
+  margin-bottom: 24px;
+  text-shadow: 0px 1px 1px #000000;
+}
